@@ -1,0 +1,101 @@
+body {
+    background-color: #2768a5; 
+    color: #393ec9;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    text-align: center;
+    padding: 50px 0;
+    font-size: 3em;
+    background-color: #212f8a;
+  }
+  
+  nav {
+    background-color: #333333;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+  }
+  
+  section {
+    padding: 50px 10%;
+    border-bottom: 1px solid #444;
+  }
+  
+  h2 {
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 20px 0;
+  }
+  
+  .work-photos {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .work-photos img {
+    width: 30%;
+    margin: 10px;
+  }
+  
+  .photo-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .photo-grid img {
+    width: 45%;
+    margin: 10px;
+  }
+  
+  .text {
+    text-align: center;
+    font-size: 1.2em;
+    margin: 20px 0;
+  }
+  
+  .text p {
+    margin: 20px 0;
+  }
+  
+  #about img,
+  #future img {
+    width: 50%;
+    margin: 0 auto 20px;
+  }
+  
+  #about .text,
+  #future .text {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
